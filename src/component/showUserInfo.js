@@ -4,13 +4,11 @@ const ShowInfo = ({userData}) => {
 
     return (
       <>
-        
         <div>
-          <p>{userData.name}</p>
-          {/* <p>{userData.last_name}</p> */}
-          <p>{userData.email}</p>
+          <p>Name : {userData.name}</p>
+          <p>Year : {userData.year}</p>
+          <p>Pantone Value : {userData.pantone_value}</p>
         </div>
-        
       </>
     );
 }
